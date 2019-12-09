@@ -19,6 +19,7 @@ namespace TK.DesignLibrary.UnitTest
 
             Assert.IsNotNull(price);
             Assert.AreEqual(10, price);
+
         }
         [TestMethod]
         public void PizzaDecorator_GetPriceWithCheese_Price()
